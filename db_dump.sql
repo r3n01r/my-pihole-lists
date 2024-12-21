@@ -57,6 +57,9 @@ INSERT INTO domainlist VALUES(371,3,'(\.|^)rdrct\.guru$',1,1703751276,1703751276
 INSERT INTO domainlist VALUES(372,3,'(\.|^)fg222\.space$',1,1703751572,1703751572,'Phishing?');
 INSERT INTO domainlist VALUES(373,3,'(\.|^)phlinks\.center$',1,1704278691,1704278691,'Scam / Phishing');
 INSERT INTO domainlist VALUES(374,3,'(\.|^)shorten\.ee$',1,1704834337,1704834337,'Scam / Phishing');
+INSERT INTO domainlist VALUES(375,3,'(\.|^)goboksehee\.net$',1,1734802594,1734802594,NULL);
+INSERT INTO domainlist VALUES(376,3,'(\.|^)viibmmqc\.com$',1,1734802623,1734802623,NULL);
+INSERT INTO domainlist VALUES(377,3,'(\.|^)1xlite-833615\.top$',1,1734802653,1734802653,NULL);
 CREATE TABLE adlist
 (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -147,4 +150,7 @@ INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(28,372,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(29,367,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(30,373,0);
 INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(31,374,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(32,375,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(33,376,0);
+INSERT INTO domainlist_by_group(rowid,domainlist_id,group_id) VALUES(34,377,0);
 COMMIT;
