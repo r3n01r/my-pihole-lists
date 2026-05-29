@@ -106,47 +106,47 @@ CREATE TABLE adlist
     type INTEGER NOT NULL DEFAULT 0,
     UNIQUE(address, type)
 );
-INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1645531842,1703752975,'Default (Steven Black''s BlockList)',1779567122,83068,1,2,0,0);
+INSERT INTO adlist VALUES(1,'https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts',1,1645531842,1703752975,'Default (Steven Black''s BlockList)',1780050599,82055,1,1,0,0);
 INSERT INTO adlist VALUES(2,'http://sysctl.org/cameleon/hosts',1,1645532981,1645532981,NULL,1739651464,20561,0,2,0,0);
 INSERT INTO adlist VALUES(3,'https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt',1,1645532981,1645532981,NULL,1739651465,34,0,2,0,0);
 INSERT INTO adlist VALUES(4,'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt',1,1645532981,1645532981,NULL,1739651465,2701,0,2,0,0);
 INSERT INTO adlist VALUES(5,'https://dbl.oisd.nl/',0,1645532981,1704398307,NULL,1704397097,700657,0,3,0,0);
 INSERT INTO adlist VALUES(6,'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=rpz',0,1645532981,1703753009,'PGL Yoyo',1703752519,0,7630,2,0,0);
-INSERT INTO adlist VALUES(7,'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',1,1645532981,1645532981,NULL,1779846154,47506,0,2,0,0);
+INSERT INTO adlist VALUES(7,'https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt',1,1645532981,1645532981,NULL,1780050604,46959,0,1,0,0);
 INSERT INTO adlist VALUES(8,'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts',1,1645532981,1645532981,NULL,1739651466,57,0,2,0,0);
 INSERT INTO adlist VALUES(9,'https://v.firebog.net/hosts/static/w3kbl.txt',1,1645532981,1645532981,NULL,1739651467,351,0,2,0,0);
 INSERT INTO adlist VALUES(10,'https://adaway.org/hosts.txt',1,1645532981,1645532981,NULL,1767467049,6540,0,2,0,0);
-INSERT INTO adlist VALUES(11,'https://v.firebog.net/hosts/AdguardDNS.txt',1,1645532981,1645532981,NULL,1779846159,162529,0,2,0,0);
-INSERT INTO adlist VALUES(12,'https://v.firebog.net/hosts/Admiral.txt',1,1645532981,1645532981,NULL,1779846159,2683,0,2,0,0);
+INSERT INTO adlist VALUES(11,'https://v.firebog.net/hosts/AdguardDNS.txt',1,1645532981,1645532981,NULL,1780050608,163043,0,1,0,0);
+INSERT INTO adlist VALUES(12,'https://v.firebog.net/hosts/Admiral.txt',1,1645532981,1645532981,NULL,1780050609,1698,0,1,0,0);
 INSERT INTO adlist VALUES(13,'https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt',1,1645532981,1645532981,NULL,1766862250,42531,0,2,0,0);
-INSERT INTO adlist VALUES(14,'https://v.firebog.net/hosts/Easylist.txt',1,1645532981,1645532981,NULL,1779846161,53671,0,2,0,0);
-INSERT INTO adlist VALUES(15,'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext',1,1645532981,1645532981,NULL,1779567137,3506,0,2,0,0);
+INSERT INTO adlist VALUES(14,'https://v.firebog.net/hosts/Easylist.txt',1,1645532981,1645532981,NULL,1780050610,54165,0,1,0,0);
+INSERT INTO adlist VALUES(15,'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext',1,1645532981,1645532981,NULL,1780050617,3508,0,1,0,0);
 INSERT INTO adlist VALUES(16,'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts',1,1645532981,1645532981,NULL,1739651477,9,0,2,0,0);
-INSERT INTO adlist VALUES(17,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1645532981,1645532981,NULL,1779846165,17757,0,2,0,0);
-INSERT INTO adlist VALUES(18,'https://v.firebog.net/hosts/Easyprivacy.txt',1,1645532981,1645532981,NULL,1779846166,42524,0,2,0,0);
-INSERT INTO adlist VALUES(19,'https://v.firebog.net/hosts/Prigent-Ads.txt',1,1645532981,1645532981,NULL,1779846167,4270,0,2,0,0);
+INSERT INTO adlist VALUES(17,'https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts',1,1645532981,1645532981,NULL,1780050619,17784,0,1,0,0);
+INSERT INTO adlist VALUES(18,'https://v.firebog.net/hosts/Easyprivacy.txt',1,1645532981,1645532981,NULL,1780050619,42524,0,1,0,0);
+INSERT INTO adlist VALUES(19,'https://v.firebog.net/hosts/Prigent-Ads.txt',1,1645532981,1645532981,NULL,1780050620,4270,0,1,0,0);
 INSERT INTO adlist VALUES(20,'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts',1,1645532981,1645532981,NULL,1739651478,2030,0,2,0,0);
 INSERT INTO adlist VALUES(21,'https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt',1,1645532981,1645532981,NULL,1739651478,347,0,2,0,0);
 INSERT INTO adlist VALUES(22,'https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt',1,1645532981,1645532981,NULL,1779846170,15027,0,2,0,0);
 INSERT INTO adlist VALUES(23,'https://raw.githubusercontent.com/DandelionSprout/adfilt/master/Alternate%20versions%20Anti-Malware%20List/AntiMalwareHosts.txt',1,1645532981,1645532981,NULL,1779567144,11621,3,2,0,0);
 INSERT INTO adlist VALUES(24,'https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt',1,1645532981,1645532981,NULL,1739651482,133,0,3,0,0);
 INSERT INTO adlist VALUES(25,'https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt',1,1645532981,1645532981,NULL,1739651483,2735,1,2,0,0);
-INSERT INTO adlist VALUES(26,'https://v.firebog.net/hosts/Prigent-Crypto.txt',1,1645532981,1645532981,NULL,1779846183,16288,0,2,0,0);
+INSERT INTO adlist VALUES(26,'https://v.firebog.net/hosts/Prigent-Crypto.txt',1,1645532981,1645532981,NULL,1780050636,16288,0,1,0,0);
 INSERT INTO adlist VALUES(27,'https://bitbucket.org/ethanr/dns-blacklists/raw/8575c9f96e5b4a1308f2f12394abd86d0927a4a0/bad_lists/Mandiant_APT1_Report_Appendix_D.txt',1,1645532981,1645532981,NULL,1739651485,2046,0,2,0,0);
-INSERT INTO adlist VALUES(28,'https://phishing.army/download/phishing_army_blocklist_extended.txt',1,1645532981,1702467540,'Phishing Army Blocklist Extended',1779846186,145831,0,2,0,0);
+INSERT INTO adlist VALUES(28,'https://phishing.army/download/phishing_army_blocklist_extended.txt',1,1645532981,1702467540,'Phishing Army Blocklist Extended',1780050639,145409,0,1,0,0);
 INSERT INTO adlist VALUES(29,'https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt',1,1645532981,1645532981,NULL,1778962359,129,0,2,0,0);
 INSERT INTO adlist VALUES(30,'https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt',1,1645532981,1645532981,NULL,1758397778,8140,0,2,0,0);
 INSERT INTO adlist VALUES(31,'https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts',1,1645532981,1645532981,NULL,1739651488,2189,0,2,0,0);
-INSERT INTO adlist VALUES(32,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1645532981,1645532981,NULL,1779846190,511,0,2,0,0);
+INSERT INTO adlist VALUES(32,'https://urlhaus.abuse.ch/downloads/hostfile/',1,1645532981,1645532981,NULL,1780050643,472,0,1,0,0);
 INSERT INTO adlist VALUES(33,'https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser',1,1645532981,1645532981,NULL,1775334946,18,771,3,0,0);
 INSERT INTO adlist VALUES(34,'https://phishing.army/download/phishing_army_blocklist.txt',0,1702467526,1702467594,'Phishing Army Blocklist',NULL,0,0,0,0,0);
-INSERT INTO adlist VALUES(35,'https://hosts.tweedge.net/malicious.txt',1,1703608534,1703753046,'Tweedge BlockList (acquired from Emerging Threats Blocklist)',1779846193,3421,0,2,0,0);
-INSERT INTO adlist VALUES(36,'https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts',1,1703753003,1703753003,'PGL Yoyo (updated URL)',1779567169,3506,96,2,0,0);
-INSERT INTO adlist VALUES(37,'https://big.oisd.nl',1,1704398326,1704398508,'OISD (Updated URL)',1779846202,323459,0,2,323459,0);
-INSERT INTO adlist VALUES(38,'https://v.firebog.net/hosts/RPiList-Malware.txt',1,1705013545,1705013545,'Acquired Recommendation from Firebog',1779846208,1010331,0,2,1010331,0);
+INSERT INTO adlist VALUES(35,'https://hosts.tweedge.net/malicious.txt',1,1703608534,1703753046,'Tweedge BlockList (acquired from Emerging Threats Blocklist)',1780050647,3424,0,1,0,0);
+INSERT INTO adlist VALUES(36,'https://pgl.yoyo.org/adservers/serverlist.php?showintro=0;hostformat=hosts',1,1703753003,1703753003,'PGL Yoyo (updated URL)',1780050648,3508,96,1,0,0);
+INSERT INTO adlist VALUES(37,'https://big.oisd.nl',1,1704398326,1704398508,'OISD (Updated URL)',1780050656,469947,0,1,469947,0);
+INSERT INTO adlist VALUES(38,'https://v.firebog.net/hosts/RPiList-Malware.txt',1,1705013545,1705013545,'Acquired Recommendation from Firebog',1780050661,1011664,0,1,1011664,0);
 INSERT INTO adlist VALUES(39,'https://v.firebog.net/hosts/RPiList-Phishing.txt',1,1705013545,1705013545,'Acquired Recommendation from Firebog',1779846210,146361,0,2,146361,0);
 INSERT INTO adlist VALUES(40,'https://raw.githubusercontent.com/AssoEchap/stalkerware-indicators/master/generated/hosts',1,1705013545,1705013545,'Acquired Recommendation from Firebog',1775935740,920,0,2,0,0);
-INSERT INTO adlist VALUES(41,'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt',1,1750230968,1750230968,'Threat Intelligence Feeds (Hagezi)',1779846217,1302072,0,2,1302072,0);
+INSERT INTO adlist VALUES(41,'https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt',1,1750230968,1750230968,'Threat Intelligence Feeds (Hagezi)',1780050670,1326636,0,1,1326636,0);
 CREATE TABLE domainlist_by_group
 (
     domainlist_id INTEGER NOT NULL REFERENCES domainlist (id) ON DELETE CASCADE,
